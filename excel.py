@@ -7,7 +7,7 @@ import requests
 from apikey import API_KEY
 
 
-params={"q":'Almaty',"key":API_KEY,'days':'7', "units":"metric"}
+params={"q":'Astana',"key":API_KEY,'days':'7', "units":"metric"}
 
 response=requests.get( "http://api.weatherapi.com/v1/forecast.json", params=params) # получаем данные от сайта вводя данные сохранненые предварительно в params
 
